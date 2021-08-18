@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  padding: 12px 48px;
+  background: transparent;
+  cursor: pointer;
+
+  &--submit {
+    font-weight: bold;
+    color: $primary-color;
+    border: 3px solid $primary-color;
+    transition: border-color 0.3s;
+
+    &:hover {
+      border-color: $primary-color-dark;
+    }
+  }
+}
