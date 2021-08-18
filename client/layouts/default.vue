@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Menu @showLogin="showLogin" />
+    <Menu />
     <Nuxt />
     <LoginModal />
   </div>
